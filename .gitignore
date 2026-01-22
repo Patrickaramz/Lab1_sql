@@ -1,3 +1,12 @@
-*.duckdb
-*.db
+# Python
+__pycache__/
+.venv/
 .ipynb_checkpoints/
+
+# Data - DuckDB 
+*.duckdb
+*.duckdb.wal
+
+# System & IDE
+.vscode/
+.DS_Store
